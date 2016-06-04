@@ -2,7 +2,7 @@
 
 Optical Character Recognition - powered by Tesseract
 
-This plugin is pretty limited at the moment, but feel free to rip it apart for your purposes!
+This plugin is pretty limited at the moment, but feel free to rip it apart for your purpose and send a PR if applicable :)
 
 ## Setup
 You'll need to add language files to help Tesseract recognizing text in the images you feed it.
