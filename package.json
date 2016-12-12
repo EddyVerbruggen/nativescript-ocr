@@ -2,7 +2,7 @@
   "name": "nativescript-ocr",
   "version": "0.1.0",
   "description": "Optical Character Recognition - powered by Tesseract",
-  "main": "ocr.js",
+  "main": "ocr",
   "nativescript": {
     "platforms": {
       "android": "1.7.1",
