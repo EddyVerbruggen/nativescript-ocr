@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Optical Character Recognition - powered by Tesseract",
   "main": "ocr",
+  "typings": "ocr.d.ts",
   "nativescript": {
     "platforms": {
       "android": "1.7.1",
