@@ -1,13 +1,13 @@
 {
   "name": "nativescript-ocr",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Optical Character Recognition - powered by Tesseract",
   "main": "ocr",
   "typings": "ocr.d.ts",
   "nativescript": {
     "platforms": {
-      "android": "1.7.1",
-      "ios": "1.7.0"
+      "android": "2.3.0",
+      "ios": "2.3.0"
     }
   },
   "repository": {
@@ -24,12 +24,12 @@
     "name": "Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/eddyverbruggen/nativescript-ocr/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/eddyverbruggen/nativescript-ocr/issues"
   },
-  "homepage": "https://github.com/eddyverbruggen/nativescript-ocr"
+  "homepage": "https://github.com/eddyverbruggen/nativescript-ocr",
+  "devDependencies": {
+    "tns-core-modules": "^2.3.0"
+  }
 }

@@ -9,7 +9,9 @@ ocr.retrieveText = function (arg) {
         return;
       }
 
-      var tesseract = G8Tesseract.alloc().initWithLanguage("eng");
+      var lang = arg.language || "eng";
+
+      var tesseract = G8Tesseract.alloc().initWithLanguage(lang);
       // tesseract.engineMode = G8OCREngineModeTesseractOnly; // the default
 
       /*

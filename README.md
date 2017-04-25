@@ -23,7 +23,8 @@ var imageSource = require("image-source");
 DemoAppModel.prototype.doOCR = function () {
   ocr.retrieveText({
     // assuming here you have a file at app/testimages/file.png
-    image: imageSource.fromFile("~/testimages/file.png")
+    image: imageSource.fromFile("~/testimages/file.png"),
+    language: "eng" // default "eng"
   }).then(
       function (result) {
           dialogs.alert({

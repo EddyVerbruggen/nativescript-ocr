@@ -10,13 +10,15 @@ ocr.retrieveText = function(arg) {
         return;
       }
 
+      var lang = arg.language || "eng";
+
       var tessBaseAPI = new com.googlecode.tesseract.android.TessBaseAPI();
       tessBaseAPI.setDebug(true);
       
       var tessfolder = fs.path.join(fs.knownFolders.currentApp().path, "tesseract");
 
       // see https://github.com/rmtheis/tess-two/blob/master/tess-two/src/com/googlecode/tesseract/android/TessBaseAPI.java#L111
-      var initSuccess = tessBaseAPI.init(tessfolder, "eng", com.googlecode.tesseract.android.TessBaseAPI.OEM_TESSERACT_ONLY);
+      var initSuccess = tessBaseAPI.init(tessfolder, lang, com.googlecode.tesseract.android.TessBaseAPI.OEM_TESSERACT_ONLY);
       // var initSuccess = tessBaseAPI.init(tessfolder, "eng", com.googlecode.tesseract.android.TessBaseAPI.OEM_TESSERACT_CUBE_COMBINED);
 
       if (!initSuccess) {
