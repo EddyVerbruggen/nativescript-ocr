@@ -13,9 +13,9 @@
 [twitter-image]:https://img.shields.io/twitter/follow/eddyverbruggen.svg?style=social&label=Follow%20me
 [twitter-url]:https://twitter.com/eddyverbruggen
 
-Optical Character Recognition - powered by Tesseract
+<img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/demo/app/samples/scanned.png" height="440px"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanning.png" height="440px"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanned.png" height="440px"/>
 
-<img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/demo/app/samples/scanned.png" height="440px" style="border: 1px solid #ccc"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanning.png" height="440px" style="border: 1px solid #ccc"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanned.png" height="440px" style="border: 1px solid #ccc"/>
+Optical Character Recognition - powered by Tesseract
 
 ## Installation
 ```bash
