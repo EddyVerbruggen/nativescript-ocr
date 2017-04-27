@@ -5,13 +5,13 @@
 *.log
 *.map
 *.tgz
-!src/angular/*.js
 !demo/karma.conf.js
 !demo/app/tests/*.js
 demo/*.d.ts
 src/*.d.ts
 !src/index.d.ts
 !src/references.d.ts
+!src/platforms/ios/*.d.ts
 demo/lib
 demo/platforms
 node_modules
