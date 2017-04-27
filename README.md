@@ -26,7 +26,7 @@ You'll need to add language files to help Tesseract recognizing text in the imag
 Download version 3.04.00 of the tessdata files [here](https://github.com/tesseract-ocr/tessdata/releases/tag/3.04.00) and
 add your required language to the `app/tesseract/tessdata/` folder of your app.
 
-Note that if your language has multiple files (like English: there's 9 files matching `eng.*`), copy _all_ those files to the folder.
+Note that if your language(s) has multiple files (like English: there's 9 files matching `eng.*`), copy _all_ those files to the folder.
 
 ### iOS
 iOS searches for the tessdata folder in `app/App_Resources/iOS`, but instead of dulicating the folder
