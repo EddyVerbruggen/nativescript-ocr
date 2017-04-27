@@ -1,0 +1,16 @@
+
+android {
+    productFlavors {
+        "ocr" {
+            dimension "ocr"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.rmtheis:tess-two:5.4.1'
+}

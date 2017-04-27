@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page">
+  <StackLayout>
+    <Image src="~/res/OCR.jpg" width="33%"/>
+    <Button text="Retrieve Text" tap="{{ doRetrieveText }}" class="button button-a"/>
+
+    <ActivityIndicator busy="{{ isBusy }}"/>
+
+    <ScrollView>
+      <Label text="{{ result }}" class="message" textWrap="true" visibility="{{ result ? 'visible': 'collapsed' }}"/>
+    </ScrollView>
+  </StackLayout>
+</Page>

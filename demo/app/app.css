@@ -1,0 +1,56 @@
+﻿button {
+  color: #ffffff;
+  padding: 8 12;
+  margin: 10 30;
+  font-size: 13;
+  border-radius: 4;
+}
+
+ActivityIndicator {
+  color: #516a78;
+}
+
+Image {
+  margin: 20 0;
+}
+
+.title {
+  color: #333;
+  font-size: 22;
+  horizontal-align: center;
+  padding-top: 30;
+}
+
+.message {
+  color: #333;
+  font-size: 13;
+  horizontal-align: center;
+  margin: 0 20 20 20;
+  padding: 12;
+  background-color: #d6d6d6;
+  border-radius: 4;
+}
+
+.button-a {
+  background-color: #51ae8c;
+}
+
+.button-b {
+  background-color: #516a78;
+}
+
+.button-c {
+  background-color: #f18b34;
+}
+
+.button-d {
+  background-color: #ee664c;
+}
+
+.button-e {
+  background-color: #73b7e8;
+}
+
+.button-custom-f {
+  background-color: yellowgreen;
+}
