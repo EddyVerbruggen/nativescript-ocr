@@ -13,6 +13,8 @@
 [twitter-image]:https://img.shields.io/twitter/follow/eddyverbruggen.svg?style=social&label=Follow%20me
 [twitter-url]:https://twitter.com/eddyverbruggen
 
+> ⚠️ This repo is hardly maintained - if you want an OCR solution in NativeScript, please consider using [Firebase MLKit](https://github.com/EddyVerbruggen/nativescript-plugin-firebase/blob/master/docs/ML_KIT.md#text-recognition) instead.
+
 <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/demo/app/samples/scanned.png" height="440px"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanning.png" height="440px"/> <img src="https://github.com/EddyVerbruggen/nativescript-ocr/raw/master/screenshots/ios-scanned.png" height="440px"/>
 
 Optical Character Recognition - powered by Tesseract
